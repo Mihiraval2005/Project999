@@ -1,0 +1,189 @@
+.main1 {
+    /* color: bisque; */
+    text-align: center;
+    border: 4px solid rgb(235, 229, 227);
+    margin-left: 30%;
+    margin-right: 30%;
+
+    border-radius: 20px;
+    box-shadow: 10px 9px 60px 10px rgb(207, 119, 191);
+    background-color: rgba(66, 66, 71, 0.005);
+    margin-bottom: 90px;
+    /* backdrop-filter: blur(20px); */
+
+
+}
+.login_header{
+    margin-bottom: 30px;
+    text-align: center;
+    color: beige;
+    padding-bottom: 40px;
+}
+.login_header::first-letter{
+    color: rgb(242, 9, 9);
+    font-size: 45px;
+}
+.main1:hover{
+    box-shadow: 10px 9px 90px 10px rgb(3, 110, 241);
+    transform: scale(1.1);
+    transition: 0.2s ease-in-out;
+}
+/* .header2{
+    color: rgb(134, 134, 75);
+    padding: 5px;
+    text-align: center;
+    background-color: rgba(0, 15, 63, 0.989);
+    
+    
+    
+} */
+/* .header2::first-letter{
+    color: rgb(253, 139, 1);
+    font-size: 50px;
+} */
+
+.login {
+    margin-bottom: 80px;
+    margin-top: 15px;
+    color: green;
+    padding: 15px;
+}
+
+.login::first-letter {
+    color: brown;
+    font-size: 40px;
+
+}
+
+.txt {
+    margin-bottom: 40px;
+    height: 30px;
+    width: 40%;
+    text-align: center;
+    border-radius: 10px;
+    color: antiquewhite;
+    background: transparent;
+    border: 2px solid antiquewhite;
+}
+
+.txt:hover {
+
+    width: 45%;
+
+}
+
+.passward {
+    margin-bottom: 40px;
+    height: 30px;
+    width: 40%;
+    text-align: center;
+    border-radius: 10px;
+    background: transparent;
+    border: 2px solid antiquewhite;
+    color: antiquewhite;
+}
+
+.passward:hover {
+
+    width: 45%;
+
+}
+
+.btn1 {
+    height: 30px;
+    width: 15%;
+    border-radius: 8px;
+    margin-bottom: 40px;
+    border: 1px solid rgb(128, 131, 161);
+    box-shadow: 10px 9px 90px 10px rgb(207, 119, 191);
+    background: transparent;
+    color: antiquewhite;
+
+}
+
+.btn1:hover {
+    box-shadow: 10px 9px 90px 10px rgb(255, 1, 102);
+}
+
+.continer23 {
+    background-image: url(/src/page/Logimg.webp);
+    padding: 90px;
+    /* background-repeat: no-repeat ; */
+}
+
+/* .h1 {
+    color: rgb(3, 45, 84);
+    background-color: beige;
+} */
+
+.s1 {
+
+    color: rgb(244, 120, 4);
+    font-size: 45px;
+}
+
+/* footer */
+
+
+footer {
+    margin: 0;
+    padding: 0;
+    height: 100px;
+}
+
+/* Style the footer background and text */
+footer {
+    background-color: #000000e8;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    /* height: 100%; */
+}
+
+/* Style the content within the footer */
+.footer-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    
+}
+
+/* Style the copyright text */
+.footer-content p {
+    margin: 10px;
+
+}
+
+/* Style the links in the footer */
+ .footer-content ul {
+    list-style: none;
+    padding: 10px;
+    padding-bottom: 20px;
+    
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+    background-color: rgba(1, 73, 78, 0.979);
+    border-radius: 10px;
+    
+
+
+}
+
+.footer-content ul li {
+    display: inline;
+}
+
+.footer-content ul li a {
+    color: #e7d5d5;
+    text-decoration: none;
+} 
+
+/* Change link color on hover */
+.footer-content ul li a:hover {
+    text-decoration: underline;
+    color: rgb(0, 162, 255);
+    text-decoration: none;
+} 
